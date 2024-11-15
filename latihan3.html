@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <body>
-    <table align="center" width="50%" cellpadding="10" cellspacing="0">
+    <title>Form</title>
+  </head>
+  <body>
+    <form name="formulir">
+      <table align="center" width="50%" cellpadding="10" cellspacing="0">
       <thead>
-        <tr bgcolor="pink">
-          <th colspan="2">BUKU TAMU</th>
+        <tr bgcolor="blue">
+          <th colspan="2">MY FORM</th>
         </tr>
       </thead>
-      <form>
-      <td>Nama:
-        <input type="text" name="nama" value="" />
-      </td>
-      <td>Password:
-        <input type="text" password="text" value="" />
-        &nbsp;
-        <input type=""
-      </td>
-      </form>
+      <tfoot>
+        <tr bgcolor="blue">
+          <th colspan="2">
+            <input type="submit" name="Simpan" value="Simpan">
+            <input type="reset" name="reset" value="reset">
+          </th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>Nama</td>
+          <td>
+            <input type="text" name="nama" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input type="password" name="password" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td>Kelamin</td>
+          <td>
+            <input type="radio" name="jk" value="L">Laki laki
+            <input type="radio" name="jk" value="P">Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td>Hobby</td>
+          <td>
+            <input type="checkbox" name="jk" value="Main Bola">Main Bola<br/>
+            <input type="checkbox" name="jk" value="Berenang">Berenang<br/>
+            <input type="checkbox" name="jk" value="Membaca">Membaca<br/>
+          </td>
+        </tr>
+        <tr>
+          <td>PENDIDIKAN</td>
+          <td>
+            <select name="PENDIDIKAN">
+              <option value="--Pilih Pendidikan--">- Pilih Pendidikan -</option>
+              <option value="SD">SD</option>
+              <option value="SMP">SMP</option>
+              <option value="SMK">SMK</option>
+              <option value="Kuliah">Kuliah</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Pesan</td>
+          <td>
+            <textarea name="Pesan" cols="100" rows="5"></textarea>
+          </td>
+        </tr>
+      </tbody>
     </table>
     </body>
 </html>
