@@ -1,0 +1,23 @@
+h1 {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: tomato;
+  letter-spacing: 5px;
+  text-emphasis: 2px 2px 5px yellow;
+}
+p {
+  text-align: justify;
+  color: maroon;
+  font-size: 14pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+hr,
+fieldset {
+  border: 2px dotted red;
+}
+fieldset,
+legend {
+  border: 10px ridge magenta;
+  padding: 5px 10px;
+  border-radius: 45px;
+}
